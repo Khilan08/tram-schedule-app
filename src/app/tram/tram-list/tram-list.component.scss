@@ -1,0 +1,94 @@
+// Import Material Theme
+@use '@angular/material' as mat;
+@include mat.core();
+
+// Define Custom Theme   Colors
+$primary-color: mat.define-palette(mat.$blue-palette, 500);
+$accent-color: mat.define-palette(mat.$amber-palette, A200);
+$warn-color: mat.define-palette(mat.$red-palette, 600);
+
+$theme: mat.define-light-theme((color: (primary: $primary-color,
+                accent: $accent-color,
+                warn: $warn-color,
+            )));
+
+@include mat.all-component-themes($theme);
+
+// General Styles
+.container {
+    max-width: 1080px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+// Header Styling
+h2 {
+    color: mat.get-color-from-palette($primary-color);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+// Tram Table Styling
+.mat-table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .mat-header-row {
+        background: mat.get-color-from-palette($primary-color);
+        color: white;
+    }
+
+    .mat-row {
+        &:hover {
+            background: #f5f5f5;
+        }
+    }
+}
+
+// Service Announcements
+.alert {
+    padding: 1rem;
+    border-radius: 6px;
+    background: mat.get-color-from-palette($warn-color, lighter);
+    color: mat.get-color-from-palette($warn-color, default);
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+h2 {
+    text-align: center;
+    color: #00796b;
+}
+
+.search-bar {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.alert {
+    background-color: #ffeb3b;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.ng-select {
+    width: 280px;
+}
+
+button {
+    height: 40px;
+}
