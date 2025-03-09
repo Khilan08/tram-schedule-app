@@ -365,58 +365,43 @@
             "scope": {
                 "stop_areas": [
                     {
-                        "id": 4501,
-                        "name": "Gullmarsplan",
+                        "id": 4549,
+                        "name": "Solna station",
                         "type": "TRAMSTN"
                     },
                     {
-                        "id": 4503,
-                        "name": "Globen",
+                        "id": 4547,
+                        "name": "Solna centrum",
                         "type": "TRAMSTN"
                     },
                     {
-                        "id": 4505,
-                        "name": "Linde",
+                        "id": 4545,
+                        "name": "Solna Business Park",
                         "type": "TRAMSTN"
                     },
                     {
-                        "id": 4507,
-                        "name": "Valla torg",
+                        "id": 4543,
+                        "name": "Sundbybergs centrum",
                         "type": "TRAMSTN"
                     },
                     {
-                        "id": 4509,
-                        "name": "Årstafältet",
+                        "id": 4541,
+                        "name": "Bällsta bro",
                         "type": "TRAMSTN"
                     },
                     {
-                        "id": 4511,
-                        "name": "Årstaberg",
+                        "id": 4539,
+                        "name": "Karlsbodavägen",
                         "type": "TRAMSTN"
                     },
                     {
-                        "id": 4513,
-                        "name": "Årstadal",
+                        "id": 4535,
+                        "name": "Johannesfred",
                         "type": "TRAMSTN"
                     },
                     {
-                        "id": 4515,
-                        "name": "Liljeholmen",
-                        "type": "TRAMSTN"
-                    },
-                    {
-                        "id": 4517,
-                        "name": "Trekanten",
-                        "type": "TRAMSTN"
-                    },
-                    {
-                        "id": 4519,
-                        "name": "Gröndal",
-                        "type": "TRAMSTN"
-                    },
-                    {
-                        "id": 4521,
-                        "name": "Stora Essingen",
+                        "id": 4525,
+                        "name": "Alvik",
                         "type": "TRAMSTN"
                     },
                     {
@@ -425,8 +410,58 @@
                         "type": "TRAMSTN"
                     },
                     {
-                        "id": 4525,
-                        "name": "Alvik",
+                        "id": 4521,
+                        "name": "Stora Essingen",
+                        "type": "TRAMSTN"
+                    },
+                    {
+                        "id": 4519,
+                        "name": "Gröndal",
+                        "type": "TRAMSTN"
+                    },
+                    {
+                        "id": 4517,
+                        "name": "Trekanten",
+                        "type": "TRAMSTN"
+                    },
+                    {
+                        "id": 4515,
+                        "name": "Liljeholmen",
+                        "type": "TRAMSTN"
+                    },
+                    {
+                        "id": 4513,
+                        "name": "Årstadal",
+                        "type": "TRAMSTN"
+                    },
+                    {
+                        "id": 4511,
+                        "name": "Årstaberg",
+                        "type": "TRAMSTN"
+                    },
+                    {
+                        "id": 4509,
+                        "name": "Årstafältet",
+                        "type": "TRAMSTN"
+                    },
+                    {
+                        "id": 4507,
+                        "name": "Valla torg",
+                        "type": "TRAMSTN"
+                    },
+                    {
+                        "id": 4505,
+                        "name": "Linde",
+                        "type": "TRAMSTN"
+                    },
+                    {
+                        "id": 4503,
+                        "name": "Globen",
+                        "type": "TRAMSTN"
+                    },
+                    {
+                        "id": 4501,
+                        "name": "Gullmarsplan",
                         "type": "TRAMSTN"
                     },
                     {
@@ -447,46 +482,6 @@
                     {
                         "id": 4533,
                         "name": "Sickla udde",
-                        "type": "TRAMSTN"
-                    },
-                    {
-                        "id": 4535,
-                        "name": "Johannesfred",
-                        "type": "TRAMSTN"
-                    },
-                    {
-                        "id": 4539,
-                        "name": "Karlsbodavägen",
-                        "type": "TRAMSTN"
-                    },
-                    {
-                        "id": 4541,
-                        "name": "Bällsta bro",
-                        "type": "TRAMSTN"
-                    },
-                    {
-                        "id": 4543,
-                        "name": "Sundbybergs centrum",
-                        "type": "TRAMSTN"
-                    },
-                    {
-                        "id": 4545,
-                        "name": "Solna Business Park",
-                        "type": "TRAMSTN"
-                    },
-                    {
-                        "id": 4547,
-                        "name": "Solna centrum",
-                        "type": "TRAMSTN"
-                    },
-                    {
-                        "id": 4549,
-                        "name": "Solna station",
-                        "type": "TRAMSTN"
-                    },
-                    {
-                        "id": 4561,
-                        "name": "Bromma Blocks",
                         "type": "TRAMSTN"
                     },
                     {
